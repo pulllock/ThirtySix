@@ -3,21 +3,22 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
-
-    <groupId>fun.pullock</groupId>
-    <artifactId>thirty-six</artifactId>
-    <version>1.0.0-SNAPSHOT</version>
+    <parent>
+        <groupId>fun.pullock</groupId>
+        <artifactId>thirty-six</artifactId>
+        <version>1.0.0-SNAPSHOT</version>
+    </parent>
     <packaging>pom</packaging>
-
     <modules>
-        <module>GoF</module>
-        <module>EJ</module>
-        <module>MultipleJavaVersions</module>
+        <module>Version4</module>
+        <module>Version5</module>
     </modules>
 
+    <artifactId>multiple-java-versions</artifactId>
+
     <properties>
-        <maven.compiler.source>17</maven.compiler.source>
-        <maven.compiler.target>17</maven.compiler.target>
+        <maven.compiler.source>26</maven.compiler.source>
+        <maven.compiler.target>26</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
