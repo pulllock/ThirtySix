@@ -1,4 +1,4 @@
-package fun.pullock.gof.creational.c3_5;
+package fun.pullock.gof.creational.c3_5_singleton.static_factory;
 
 public class Client {
 
