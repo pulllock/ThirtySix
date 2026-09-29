@@ -14,6 +14,7 @@
         <module>EJ</module>
         <module>MultipleJavaVersions</module>
         <module>UtJ</module>
+        <module>JCiP</module>
     </modules>
 
     <properties>
