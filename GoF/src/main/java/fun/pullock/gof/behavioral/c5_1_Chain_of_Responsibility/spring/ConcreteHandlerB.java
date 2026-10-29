@@ -1,5 +1,8 @@
-package fun.pullock.gof.behavioral.c5_1_Chain_of_Responsibility;
+package fun.pullock.gof.behavioral.c5_1_Chain_of_Responsibility.spring;
 
+/**
+ * Spring Bean
+ */
 class ConcreteHandlerB extends Handler {
 
     @Override
@@ -7,14 +10,6 @@ class ConcreteHandlerB extends Handler {
         // 当前处理者是否能处理
         if (canHandle(request)) {
             System.out.println("ConcreteHandlerB 处理请求：" + request.getContent());
-
-        } else {
-            // 不能处理则传递给下一个处理者
-            if (next != null) {
-                next.handleRequest(request);
-            } else {
-                System.out.println("请求无人处理");
-            }
         }
     }
 

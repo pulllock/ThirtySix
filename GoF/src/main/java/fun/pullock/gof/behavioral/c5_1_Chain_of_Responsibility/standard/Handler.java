@@ -1,4 +1,4 @@
-package fun.pullock.gof.behavioral.c5_1_Chain_of_Responsibility;
+package fun.pullock.gof.behavioral.c5_1_Chain_of_Responsibility.standard;
 
 abstract class Handler {
 
